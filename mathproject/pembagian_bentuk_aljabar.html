@@ -1,0 +1,206 @@
+<html>
+<head>
+<title>Pembagian bentuk aljabar</title>
+<style>
+body {
+background-image: url("../assets/img/background3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+</style>
+</head>
+<body>
+<script>
+function my_function() {
+var v_soal_01=getRadioValue("soal_01");
+var v_soal_02=getRadioValue("soal_02");
+var v_soal_03=getRadioValue("soal_03");
+var v_soal_04=getRadioValue("soal_04");
+var v_soal_05=getRadioValue("soal_05");
+var v_soal_06=getRadioValue("soal_06");
+var v_soal_07=getRadioValue("soal_07");
+var v_soal_08=getRadioValue("soal_08");
+var v_soal_09=getRadioValue("soal_09");
+var v_soal_10=getRadioValue("soal_10");
+var nilai=0;
+
+if (v_soal_01=="A") {
+nilai=nilai+1;
+}
+
+if (v_soal_02=="C") {
+nilai=nilai+1;
+}
+
+if (v_soal_03=="D") {
+nilai=nilai+1;
+}
+
+if (v_soal_04=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_05=="A") {
+nilai=nilai+1;
+}
+
+if (v_soal_06=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_07=="C") {
+nilai=nilai+1;
+}
+
+if (v_soal_08=="A") {
+nilai=nilai+1;
+}
+
+if (v_soal_09=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_10=="C") {
+nilai=nilai+1;
+}
+nilai=(nilai*10)/1;
+alert("selamat anda mendapatkan skor "+nilai);
+}
+
+function getRadioValue(theRadioGroup) {
+var elements = document.getElementsByName(theRadioGroup);
+for (var i = 0, l = elements.length; i < l; i++) {
+if (elements[i].checked) {
+return elements[i].value;
+}
+}
+}
+
+</script>
+<h2>Soal-Soal Evaluasi Pembagian Bentuk Aljabar</h2>
+<table>
+<tr>
+<td>1.</td>
+<td>(4xy):(2xy)= ......</br>
+<input type="radio" name="soal_01" id="soal_01" value="A">2<br>
+<input type="radio" name="soal_01" id="soal_01" value="B">2xy<br>
+<input type="radio" name="soal_01" id="soal_01" value="C">1/2 xy<br>
+<input type="radio" name="soal_01" id="soal_01" value="D">1/2 x<br>
+</td>
+</tr>
+
+<tr>
+<td>2.</td>
+<td>(2x<sup>2</sup>):(x) = ......</br>
+<input type="radio" name="soal_02" id="soal_02" value="A">4x<sup>2</sup><br>
+<input type="radio" name="soal_02" id="soal_02" value="B">1/2 x<br>
+<input type="radio" name="soal_02" id="soal_02" value="C">2x<br>
+<input type="radio" name="soal_02" id="soal_02" value="D">2x<sup>2</sup><br>
+</td>
+</tr>
+
+<tr>
+<td>3.</td>
+<td>(6a<sup>2</sup>b<sup>2</sup>):(2a<sup>2</sup>b)=.....</br>
+<input type="radio" name="soal_03" id="soal_03" value="A">3a<sup>2</sup>b<sup>2</sup><br>
+<input type="radio" name="soal_03" id="soal_03" value="B">3a<sup>2</sup><br>
+<input type="radio" name="soal_03" id="soal_03" value="C">12ab<br>
+<input type="radio" name="soal_03" id="soal_03" value="D">3b<br>
+</td>
+</tr>
+
+<tr>
+<td>4.</td>
+<td>(15y<sup>2</sup>):(3y) = .....</br>
+<input type="radio" name="soal_04" id="soal_04" value="A">5y<sup>2</sup><br>
+<input type="radio" name="soal_04" id="soal_04" value="B">5y<br>
+<input type="radio" name="soal_04" id="soal_04" value="C">45y<br>
+<input type="radio" name="soal_04" id="soal_04" value="D">7y<br>
+</td>
+</tr>
+
+<tr>
+<td>5.</td>
+<td>(21xy):(15y) = ....</br>
+<input type="radio" name="soal_05" id="soal_05" value="A">7x/5<br>
+<input type="radio" name="soal_05" id="soal_05" value="B">5x/7<br>
+<input type="radio" name="soal_05" id="soal_05" value="C">5x<br>
+<input type="radio" name="soal_05" id="soal_05" value="D">7x<br>
+</td>
+</tr>
+
+<tr>
+<td>6.</td>
+<td>(18y<sup>2</sup>x):(3y) = ....</br>
+<input type="radio" name="soal_06" id="soal_06" value="A">9xy<br>
+<input type="radio" name="soal_06" id="soal_06" value="B">6xy<br>
+<input type="radio" name="soal_06" id="soal_06" value="C">6x<sup>2</sup><br>
+<input type="radio" name="soal_06" id="soal_06" value="D">6y<sup>2</sup><br>
+</td>
+</tr>
+
+<tr>
+<td>7.</td>
+<td>(16xy):(4xy) = .....</br>
+<input type="radio" name="soal_07" id="soal_07" value="A">4x<br>
+<input type="radio" name="soal_07" id="soal_07" value="B">4y<br>
+<input type="radio" name="soal_07" id="soal_07" value="C">4<br>
+<input type="radio" name="soal_07" id="soal_07" value="D">1/4 xy<br>
+</td>
+</tr>
+
+<tr>
+<td>8.</td>
+<td>(49x):(7x<sup>2</sup>) = .....</br>
+<input type="radio" name="soal_08" id="soal_08" value="A">7/x<br>
+<input type="radio" name="soal_08" id="soal_08" value="B">1/7 x<sup>2</sup><br>
+<input type="radio" name="soal_08" id="soal_08" value="C">7x<sup>2</sup><br>
+<input type="radio" name="soal_08" id="soal_08" value="D">7/x<sup>2</sup><br>
+</td>
+</tr>
+
+<tr>
+<td>9.</td>
+<td>(24a<sup>2</sup>b<sup>2</sup>c):(48abc) = ........</br>
+<input type="radio" name="soal_09" id="soal_09" value="A">2a<sup>2</sup>bc<br>
+<input type="radio" name="soal_09" id="soal_09" value="B">ab/2<br>
+<input type="radio" name="soal_09" id="soal_09" value="C">1/2 a<sup>2</sup>b<br>
+<input type="radio" name="soal_09" id="soal_09" value="D">4ab<br>
+</td>
+</tr>
+
+<tr>
+<td>10.</td>
+<td>(39xy+6x<sup>2</sup>):(3xy) = ......</br>
+<input type="radio" name="soal_10" id="soal_10" value="A">9x+y<br>
+<input type="radio" name="soal_10" id="soal_10" value="B">13xy+3y<br>
+<input type="radio" name="soal_10" id="soal_10" value="C">13+2x/y<br>
+<input type="radio" name="soal_10" id="soal_10" value="D">12+3x/y<br>
+</td>
+</tr>
+
+</table>
+
+<a href="#" onclick="my_function()">Submit</a>
+
+</body>
+</html>
+<style>
+tr {
+vertical-align: top;
+}
+
+a:link, a:visited {
+background-color: green;
+color: white;
+padding: 5px 25px;
+text-align: center;
+text-decoration: none;
+}
+
+a:hover, a:active {
+background-color:blue;
+}
+
+</style>

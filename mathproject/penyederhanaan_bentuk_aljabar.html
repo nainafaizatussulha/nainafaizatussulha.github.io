@@ -1,0 +1,207 @@
+<html>
+<head>
+<title>Penyederhanaan bentuk aljabar</title>
+<style>
+body {
+background-image: url("../assets/img/background3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+</style>
+</head>
+<body>
+<script>
+function my_function() {
+var v_soal_01=getRadioValue("soal_01");
+var v_soal_02=getRadioValue("soal_02");
+var v_soal_03=getRadioValue("soal_03");
+var v_soal_04=getRadioValue("soal_04");
+var v_soal_05=getRadioValue("soal_05");
+var v_soal_06=getRadioValue("soal_06");
+var v_soal_07=getRadioValue("soal_07");
+var v_soal_08=getRadioValue("soal_08");
+var v_soal_09=getRadioValue("soal_09");
+var v_soal_10=getRadioValue("soal_10");
+var nilai=0;
+
+if (v_soal_01=="A") {
+nilai=nilai+1;
+}
+
+if (v_soal_02=="D") {
+nilai=nilai+1;
+}
+
+if (v_soal_03=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_04=="A") {
+nilai=nilai+1;
+}
+
+if (v_soal_05=="C") {
+nilai=nilai+1;
+}
+
+if (v_soal_06=="D") {
+nilai=nilai+1;
+}
+
+if (v_soal_07=="D") {
+nilai=nilai+1;
+}
+
+if (v_soal_08=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_09=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_10=="C") {
+nilai=nilai+1;
+}
+nilai=(nilai*10)/1;
+alert("selamat anda mendapatkan skor "+nilai);
+}
+
+function getRadioValue(theRadioGroup) {
+var elements = document.getElementsByName(theRadioGroup);
+for (var i = 0, l = elements.length; i < l; i++) {
+if (elements[i].checked) {
+return elements[i].value;
+}
+}
+}
+
+</script>
+<h2>Soal-Soal Evaluasi Penyederhanaan Bentuk Aljabar</h2>
+<table>
+
+<tr>
+<td>1.</td>
+<td>Bentuk sederhana dari penjumlahan bilangan aljabar berikut 3x/4+2x/4 adalah... </br>
+<input type="radio" name="soal_01" id="soal_01" value="A">5x/4<br>
+<input type="radio" name="soal_01" id="soal_01" value="B">5/4x<br>
+<input type="radio" name="soal_01" id="soal_01" value="C">4x/5<br>
+<input type="radio" name="soal_01" id="soal_01" value="D">4/5x<br>
+</td>
+</tr>
+
+<tr>
+<td>2.</td>
+<td>Sederhanakanlah aljabar bentuk 10y/(2x+1)+3y/(2x+1) = ...</br>
+<input type="radio" name="soal_02" id="soal_02" value="A">-3y/(x+2y)<br>
+<input type="radio" name="soal_02" id="soal_02" value="B">13/(x+2y)<br>
+<input type="radio" name="soal_02" id="soal_02" value="C">3y/(2x-1)<br>
+<input type="radio" name="soal_02" id="soal_02" value="D">13y/(2x+1)<br>
+</td>
+</tr>
+
+<tr>
+<td>3.</td>
+<td>Bentuk sederhana dari aljabar berikut adalah 10a/xy + 8a/xy = .....</br>
+<input type="radio" name="soal_03" id="soal_03" value="A">2a/xy<br>
+<input type="radio" name="soal_03" id="soal_03" value="B">18a/xy<br>
+<input type="radio" name="soal_03" id="soal_03" value="C">5/4 xy<br>
+<input type="radio" name="soal_03" id="soal_03" value="D">18xy<br>
+</td>
+</tr>
+
+<tr>
+<td>4.</td>
+<td>Dari aljabar 9x/y + 3y/x  , bentuk sederhananya adalah....</br>
+<input type="radio" name="soal_04" id="soal_04" value="A">9x<sup>2</sup>+3y<sup>2</sup>/xy<br>
+<input type="radio" name="soal_04" id="soal_04" value="B">9xy/3y<br>
+<input type="radio" name="soal_04" id="soal_04" value="C">12xy<br>
+<input type="radio" name="soal_04" id="soal_04" value="D">9x<sup>2</sup>+3y<br>
+</td>
+</tr>
+
+<tr>
+<td>5.</td>
+<td>Bentuk sederhana dari pengoperasian aljabar berikut adalah (3x+2)/(1-x) + 2/(1-x) = ....</br>
+<input type="radio" name="soal_05" id="soal_05" value="A">4x-2/3<br>
+<input type="radio" name="soal_05" id="soal_05" value="B">3x+2y/5<br>
+<input type="radio" name="soal_05" id="soal_05" value="C">3x/(1-x)<br>
+<input type="radio" name="soal_05" id="soal_05" value="D">3x<sup>2</sup>/(x+1)<br>
+</td>
+</tr>
+
+<tr>
+<td>6.</td>
+<td>9x<sup>2</sup>/3y-2x/y , Penyederhanaan bentuk pecahan aljabar tersebut adalah....</br>
+<input type="radio" name="soal_06" id="soal_06" value="A">2x<sup>2</sup>-3y/y<br>
+<input type="radio" name="soal_06" id="soal_06" value="B">2x<sup>2</sup>-3y/x<br>
+<input type="radio" name="soal_06" id="soal_06" value="C">3x<sup>2</sup>+6y/2y<br>
+<input type="radio" name="soal_06" id="soal_06" value="D">3x<sup>2</sup>-2x/y <br>
+</td>
+</tr>
+
+<tr>
+<td>7.</td>
+<td>Sederhanakanlah bentuk aljabar berikut (20x/8)(6y/x) = ...</br>
+<input type="radio" name="soal_07" id="soal_07" value="A">20y<br>
+<input type="radio" name="soal_07" id="soal_07" value="B">25x<br>
+<input type="radio" name="soal_07" id="soal_07" value="C">12xy<br>
+<input type="radio" name="soal_07" id="soal_07" value="D">15y<br>
+</td>
+</tr>
+
+<tr>
+<td>8.</td>
+<td>Bentuk sederhana dari aljabar berikut (16y/21x) : (x/2) = ...</br>
+<input type="radio" name="soal_08" id="soal_08" value="A">16xy/42<br>
+<input type="radio" name="soal_08" id="soal_08" value="B">32y/21x2<br>
+<input type="radio" name="soal_08" id="soal_08" value="C">18y/21x<br>
+<input type="radio" name="soal_08" id="soal_08" value="D">32x<sup>2</sup>/y<sup>2</sup<sup>2</sup><br>
+</td>
+</tr>
+
+<tr>
+<td>9.</td>
+<td>[16(y-1)/(x-1)]:[7x/(x+1)] , sederhanakanlah bentuk aljabar tersebut ke dalam bentuk yang paling sederhana.</br>
+<input type="radio" name="soal_09" id="soal_09" value="A">112x-112y/x<br>
+<input type="radio" name="soal_09" id="soal_09" value="B">112xy-112x/(x<sup>2</sup>-1)<br>
+<input type="radio" name="soal_09" id="soal_09" value="C">112xy/x<sup>2</sup><br>
+<input type="radio" name="soal_09" id="soal_09" value="D">112xy/9x<sup>2</sup><br>
+</td>
+</tr>
+
+<tr>
+<td>10.</td>
+<td>Bentuk sederhana dari bentuk aljabar berikut [16(x-3y)/(x2+3)]:[2x/3y] = ....</br>
+<input type="radio" name="soal_10" id="soal_10" value="A">2x(x+3)/8(x-3y)<br>
+<input type="radio" name="soal_10" id="soal_10" value="B">12xy/(x+3)<br>
+<input type="radio" name="soal_10" id="soal_10" value="C">24y(x-3y)/x(x+3)<br>
+<input type="radio" name="soal_10" id="soal_10" value="D">34x(x-3)/4(x+2)<br>
+</td>
+</tr>
+
+</table>
+
+<a href="#" onclick="my_function()">Submit</a>
+
+</body>
+</html>
+<style>
+tr {
+vertical-align: top;
+}
+
+a:link, a:visited {
+background-color: green;
+color: white;
+padding: 5px 25px;
+text-align: center;
+text-decoration: none;
+}
+
+a:hover, a:active {
+background-color:blue;
+}
+
+</style>

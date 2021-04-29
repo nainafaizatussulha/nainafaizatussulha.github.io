@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Menghitung Luas Permukaan Kubus</title>
+<style>
+body {
+background-image: url("../assets/img/background1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: max-content;
+margin:300px 500px;
+}
+</style>
+</head>
+<body >
+    <script>
+        function f_operasi(){
+        var v_nilai1=parseFloat(document.getElementById("nilai1").value);
+        var hasil=6*v_nilai1*v_nilai1;
+        window.alert(hasil);
+    }
+    </script>
+    <h2>Menghitung Luas Permukaan Kubus</h2>
+    <table>
+    <tr>
+    <td>Panjang Rusuk</td>
+    <td>:</td>
+    <td><input type="text" id="nilai1" name="nilai1"></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td><button onclick="f_operasi()">=</button></td>
+    </tr>
+    </table>
+</div>
+</body>
+</html>

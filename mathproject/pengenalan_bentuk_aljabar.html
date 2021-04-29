@@ -1,0 +1,206 @@
+<html>
+<head>
+<title>Pengenalan bentuk aljabar</title>
+<style>
+body {
+background-image: url("../assets/img/background3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+</style>
+</head>
+<body>
+<script>
+function my_function() {
+var v_soal_01=getRadioValue("soal_01");
+var v_soal_02=getRadioValue("soal_02");
+var v_soal_03=getRadioValue("soal_03");
+var v_soal_04=getRadioValue("soal_04");
+var v_soal_05=getRadioValue("soal_05");
+var v_soal_06=getRadioValue("soal_06");
+var v_soal_07=getRadioValue("soal_07");
+var v_soal_08=getRadioValue("soal_08");
+var v_soal_09=getRadioValue("soal_09");
+var v_soal_10=getRadioValue("soal_10");
+var nilai=0;
+
+if (v_soal_01=="C") {
+nilai=nilai+1;
+}
+
+if (v_soal_02=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_03=="C") {
+nilai=nilai+1;
+}
+
+if (v_soal_04=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_05=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_06=="A") {
+nilai=nilai+1;
+}
+
+if (v_soal_07=="B") {
+nilai=nilai+1;
+}
+
+if (v_soal_08=="C") {
+nilai=nilai+1;
+}
+
+if (v_soal_09=="D") {
+nilai=nilai+1;
+}
+
+if (v_soal_10=="A") {
+nilai=nilai+1;
+}
+nilai=(nilai*10)/1;
+alert("selamat anda mendapatkan skor "+nilai);
+}
+
+function getRadioValue(theRadioGroup) {
+var elements = document.getElementsByName(theRadioGroup);
+for (var i = 0, l = elements.length; i < l; i++) {
+if (elements[i].checked) {
+return elements[i].value;
+}
+}
+}
+
+</script>
+<h2>Soal-Soal Evaluasi Pengenalan Bentuk Aljabar</h2>
+<table>
+<tr>
+<td>1.</td>
+<td>1.	Dari bentuk aljabar 3x<sup>2</sup>+6x+7y-10x+x2-y , yang termasuk suku sejenis adalah...</br>
+<input type="radio" name="soal_01" id="soal_01" value="A">3x<sup>2</sup>+6x<br>
+<input type="radio" name="soal_01" id="soal_01" value="B">7y-10x<br>
+<input type="radio" name="soal_01" id="soal_01" value="C">6x-10x<br>
+<input type="radio" name="soal_01" id="soal_01" value="D">3x<sup>2</sup>-10x<br>
+</td>
+</tr>
+
+<tr>
+<td>2.</td>
+<td>2x-4x<sup>2</sup>+3y termasuk aljabar yang memiliki suku...</br>
+<input type="radio" name="soal_02" id="soal_02" value="A">dua<br>
+<input type="radio" name="soal_02" id="soal_02" value="B">tiga<br>
+<input type="radio" name="soal_02" id="soal_02" value="C">empat<br>
+<input type="radio" name="soal_02" id="soal_02" value="D">lima<br>
+</td>
+</tr>
+
+<tr>
+<td>3.</td>
+<td>Dari bentuk aljabar 3y-8z+7x+8 yang termasuk variabel adalah...</br>
+<input type="radio" name="soal_03" id="soal_03" value="A">3, -8, 7<br>
+<input type="radio" name="soal_03" id="soal_03" value="B">8<br>
+<input type="radio" name="soal_03" id="soal_03" value="C">X, y, z<br>
+<input type="radio" name="soal_03" id="soal_03" value="D">8, 7<br>
+</td>
+</tr>
+
+<tr>
+<td>4.</td>
+<td>Koefisien suku pertama dari bentuk aljabar 6x<sup>2</sup>+12y-3x adalah...</br>
+<input type="radio" name="soal_04" id="soal_04" value="A">x<sup>2</sup><br>
+<input type="radio" name="soal_04" id="soal_04" value="B">6<br>
+<input type="radio" name="soal_04" id="soal_04" value="C">x<br>
+<input type="radio" name="soal_04" id="soal_04" value="D">y<br>
+</td>
+</tr>
+
+<tr>
+<td>5.</td>
+<td>variabel suku ke-dua bentuk aljabar 3x+2y-7 adalah...</br>
+<input type="radio" name="soal_05" id="soal_05" value="A">3<br>
+<input type="radio" name="soal_05" id="soal_05" value="B">2<br>
+<input type="radio" name="soal_05" id="soal_05" value="C">-7<br>
+<input type="radio" name="soal_05" id="soal_05" value="D">y<br>
+</td>
+</tr>
+
+<tr>
+<td>6.</td>
+<td>Dari bentuk aljabar berikut 2x-y yang termasuk konstanta adalah...</br>
+<input type="radio" name="soal_06" id="soal_06" value="A">tidak ada<br>
+<input type="radio" name="soal_06" id="soal_06" value="B">2<br>
+<input type="radio" name="soal_06" id="soal_06" value="C">x<br>
+<input type="radio" name="soal_06" id="soal_06" value="D">y<br>
+</td>
+</tr>
+
+<tr>
+<td>7.</td>
+<td>3x<sup>2</sup>-3y termasuk aljabar yang memiliki suku...</br>
+<input type="radio" name="soal_07" id="soal_07" value="A">satu<br>
+<input type="radio" name="soal_07" id="soal_07" value="B">dua<br>
+<input type="radio" name="soal_07" id="soal_07" value="C">tiga<br>
+<input type="radio" name="soal_07" id="soal_07" value="D">empat<br>
+</td>
+</tr>
+
+<tr>
+<td>8.</td>
+<td>Koefisien suku kedua dari bentuk aljabar 6x<sup>2</sup>-2x+8y-7 adalah...</br>
+<input type="radio" name="soal_08" id="soal_08" value="A">-7<br>
+<input type="radio" name="soal_08" id="soal_08" value="B">6<br>
+<input type="radio" name="soal_08" id="soal_08" value="C">-2<br>
+<input type="radio" name="soal_08" id="soal_08" value="D">8<br>
+</td>
+</tr>
+
+<tr>
+<td>9.</td>
+<td>Faktor dari 12a adalah...</br>
+<input type="radio" name="soal_09" id="soal_09" value="A">1,2,6,12 dan a<br>
+<input type="radio" name="soal_09" id="soal_09" value="B">2,3,4 dan a<br>
+<input type="radio" name="soal_09" id="soal_09" value="C">a<br>
+<input type="radio" name="soal_09" id="soal_09" value="D">1,2,3,4,6,12 ,12a dan a<br>
+</td>
+</tr>
+
+<tr>
+<td>10.</td>
+<td>Faktor dari 7x adalah...</br>
+<input type="radio" name="soal_10" id="soal_10" value="A">1,7,x dan 7x<br>
+<input type="radio" name="soal_10" id="soal_10" value="B">1, 7x<br>
+<input type="radio" name="soal_10" id="soal_10" value="C">x<br>
+<input type="radio" name="soal_10" id="soal_10" value="D">7<br>
+</td>
+</tr>
+
+</table>
+
+<a href="#" onclick="my_function()">Submit</a>
+
+</body>
+</html>
+<style>
+tr {
+vertical-align: top;
+}
+
+a:link, a:visited {
+background-color: green;
+color: white;
+padding: 5px 25px;
+text-align: center;
+text-decoration: none;
+}
+
+a:hover, a:active {
+background-color:blue;
+}
+
+</style>

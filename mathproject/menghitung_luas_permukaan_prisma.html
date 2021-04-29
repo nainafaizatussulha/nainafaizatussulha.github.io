@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Menghitung Luas Permukaan Prisma</title>
+<style>
+body {
+background-image: url("../assets/img/background1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: max-content;
+margin:300px 500px;
+}
+</style>
+</head>
+<body>
+<script>
+function f_operasi(){
+var v_nilai1=parseFloat(document.getElementById("nilai1").value);
+var v_nilai2=parseFloat(document.getElementById("nilai2").value);
+var v_nilai3=parseFloat(document.getElementById("nilai3").value);
+var hasil=(2*v_nilai1)+(v_nilai2*v_nilai3);
+window.alert(hasil);
+}
+</script>
+<h2>Menghitung Luas Permukaan Prisma</h2>
+<table>
+<tr>
+<td>Luas Alas</td>
+<td>:</td>
+<td><input type="text" id="nilai1" name="nilai1"></td>
+</tr>
+<tr>
+<td>Keliling Alas</td>
+<td>:</td>
+<td><input type="text" id="nilai2" name="nilai2"></td>
+</tr>
+<tr>
+<td>Tinggi</td>
+<td>:</td>
+<td><input type="text" id="nilai3" name="nilai3"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><button onclick="f_operasi()">=</button></td>
+</tr>
+</table>
+</body>
+</html>
